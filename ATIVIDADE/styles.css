@@ -1,0 +1,54 @@
+h1{    
+    font-size: 50px;
+    color: #333;
+    text-align: center;
+
+}
+body{
+    background-color: #00f1a9;
+    margin: 0;
+    height: 100vh;
+    
+    
+}
+h2{
+    font-size: 30px;
+    color: #333;
+    text-align: left;
+}
+p{
+    font-size: 20px;
+    color: #333;
+    text-align: left;
+    
+}
+.imagens{
+     
+    border-radius: 120px;
+    height: 500px;
+    width: 500px;
+   }
+
+
+#textoimagem{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+#galeria{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+#bloquin{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    grid-gap: -100%;
+}
+#textoimagem2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
